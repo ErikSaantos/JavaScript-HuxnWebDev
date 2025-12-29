@@ -36,12 +36,19 @@
 // ========== Object Destructuring ==========
 // In object destructuring order doesn't matter but the name does
 
-const student = {
-    name: "Erik",
-    position: "Firrst",
-    rollNo: 11
-};
+// const student = {
+//     name: "Erik",
+//     position: "Firrst",
+//     rollNo: 11
+// };
 
-const {name, rollNo} = student;
-console.log(name);
-console.log(rollNo);
+// const {name, rollNo} = student;
+// console.log(name);
+// console.log(rollNo);
+
+// ========== Object Destructuring and Rest Operator ==========
+let {a, b, ...rest} = {a: 100, b: 200, c: 300, d: 400, e: 500}; // Name does
+
+console.log('Value 1: ', a);
+console.log('Value 2: ', b);
+console.log('Rest of the values: ', rest);
