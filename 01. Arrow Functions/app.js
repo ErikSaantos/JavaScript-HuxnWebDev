@@ -36,17 +36,17 @@ console.log("Santos");
 // MY SOLUTION:
 
 setTimeout(func => {
-        console.log("Hello");
+    console.log("Hello");
+    setTimeout(func => {
+        console.log("Hey");
         setTimeout(func => {
-            console.log("Hey");
+            console.log("Namaste");
             setTimeout(func => {
-                console.log("Namaste");
+                console.log("Hi");
                 setTimeout(func => {
-                    console.log("Hi");
-                    setTimeout(func => {
-                        console.log("Bonjour");
-                    }, 2000)
+                    console.log("Bonjour");
                 }, 2000)
             }, 2000)
         }, 2000)
     }, 2000)
+}, 2000)
